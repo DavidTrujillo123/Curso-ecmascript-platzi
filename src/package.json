@@ -1,0 +1,23 @@
+{
+  "name": "curso-ecmascript-platzi",
+  "version": "1.0.0",
+  "description": "Proyecto de platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DavidTrujillo123/Curso-ecmascript-platzi.git"
+  },
+  "keywords": [
+    "javacript",
+    "ecmascript"
+  ],
+  "author": "David Trjillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidTrujillo123/Curso-ecmascript-platzi/issues"
+  },
+  "homepage": "https://github.com/DavidTrujillo123/Curso-ecmascript-platzi#readme"
+}

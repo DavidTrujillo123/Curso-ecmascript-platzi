@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/DavidTrujillo123/Curso-ecmascript-platzi/issues"
   },
-  "homepage": "https://github.com/DavidTrujillo123/Curso-ecmascript-platzi#readme"
+  "homepage": "https://github.com/DavidTrujillo123/Curso-ecmascript-platzi#readme",
+  "type": "module"
 }

@@ -6,14 +6,14 @@ async function* example (){
     yield await Promise.resolve(3);
 }
 const other = example();
-other.next().then(response=> console.log(response.values));
-other.next().then(response=> console.log(response.values));
-other.next().then(response=> console.log(response.values));
+other.next().then(response=> console.log(response.value));
+other.next().then(response=> console.log(response.value));
+other.next().then(response=> console.log(response.value));
 console.log('Hellow');
 
 async function arrayOfNames(array){
-    for (let values of array){
-        yield await Promise.resolve(values);
+    for await (let values of array){
+        console.log(values);
     }
 }
 
